@@ -1,0 +1,179 @@
+/* Full Page Background */
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.app-container{
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+}
+
+
+
+/* Main Todo Card */
+
+.todo-card{
+
+  width: 500px;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.15);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+}
+
+
+
+/* Heading */
+
+.todo-heading{
+
+  color: white;
+
+  text-align: center;
+
+  margin-bottom: 25px;
+
+  font-size: 36px;
+
+  font-weight: bold;
+}
+
+
+
+/* Input Section */
+
+.input-container{
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+
+
+/* Input Box */
+
+.todo-input{
+
+  flex: 1;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  font-size: 16px;
+}
+
+
+
+/* Add Button */
+
+.add-btn{
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+.add-btn:hover{
+
+  background-color: #45a049;
+}
+
+
+
+/* Todo List */
+
+.todo-list{
+
+  margin-top: 20px;
+}
+
+
+
+/* Single Todo Item */
+
+.todo-item{
+
+  background: white;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+
+
+/* Delete Button */
+
+.delete-btn{
+
+  background-color: crimson;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+.delete-btn:hover{
+
+  background-color: darkred;
+}
